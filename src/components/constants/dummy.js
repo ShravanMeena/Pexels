@@ -41,6 +41,449 @@ export const newSeason = [
         }
     },
     {
+        id: 1,
+        name: "Barbarians",
+        thumbnail: require("../assets/images/series/barbarians/barbarians_cover.jpg"),
+        stillWatching: [
+            {
+                id: 1,
+                profile: require("../assets/images/dummy_profile/1.jpg")
+            },
+            {
+                id: 2,
+                profile: require("../assets/images/dummy_profile/2.jpg")
+            },
+            {
+                id: 3,
+                profile: require("../assets/images/dummy_profile/3.jpg")
+            },
+            {
+                id: 4,
+                profile: require("../assets/images/dummy_profile/4.jpg")
+            },
+            {
+                id: 5,
+                profile: require("../assets/images/dummy_profile/5.jpg")
+            },
+            {
+                id: 6,
+                profile: require("../assets/images/dummy_profile/6.jpg")
+            },
+        ],
+        details: {
+            image: require("../assets/images/series/barbarians/barbarians.jpg"),
+            age: "16+",
+            genre: "Historical Drama",
+            ratings: 7.2,
+            season: "SEASON 1",
+            currentEpisode: 'S1 : E1 "Episode 1 : Vikings"',
+            runningTime: "45m",
+            progress: "0%"
+        }
+    },
+    {
+        id: 1,
+        name: "Barbarians",
+        thumbnail: require("../assets/images/series/barbarians/barbarians_cover.jpg"),
+        stillWatching: [
+            {
+                id: 1,
+                profile: require("../assets/images/dummy_profile/1.jpg")
+            },
+            {
+                id: 2,
+                profile: require("../assets/images/dummy_profile/2.jpg")
+            },
+            {
+                id: 3,
+                profile: require("../assets/images/dummy_profile/3.jpg")
+            },
+            {
+                id: 4,
+                profile: require("../assets/images/dummy_profile/4.jpg")
+            },
+            {
+                id: 5,
+                profile: require("../assets/images/dummy_profile/5.jpg")
+            },
+            {
+                id: 6,
+                profile: require("../assets/images/dummy_profile/6.jpg")
+            },
+        ],
+        details: {
+            image: require("../assets/images/series/barbarians/barbarians.jpg"),
+            age: "16+",
+            genre: "Historical Drama",
+            ratings: 7.2,
+            season: "SEASON 1",
+            currentEpisode: 'S1 : E1 "Episode 1 : Vikings"',
+            runningTime: "45m",
+            progress: "0%"
+        }
+    }, {
+        id: 1,
+        name: "Barbarians",
+        thumbnail: require("../assets/images/series/barbarians/barbarians_cover.jpg"),
+        stillWatching: [
+            {
+                id: 1,
+                profile: require("../assets/images/dummy_profile/1.jpg")
+            },
+            {
+                id: 2,
+                profile: require("../assets/images/dummy_profile/2.jpg")
+            },
+            {
+                id: 3,
+                profile: require("../assets/images/dummy_profile/3.jpg")
+            },
+            {
+                id: 4,
+                profile: require("../assets/images/dummy_profile/4.jpg")
+            },
+            {
+                id: 5,
+                profile: require("../assets/images/dummy_profile/5.jpg")
+            },
+            {
+                id: 6,
+                profile: require("../assets/images/dummy_profile/6.jpg")
+            },
+        ],
+        details: {
+            image: require("../assets/images/series/barbarians/barbarians.jpg"),
+            age: "16+",
+            genre: "Historical Drama",
+            ratings: 7.2,
+            season: "SEASON 1",
+            currentEpisode: 'S1 : E1 "Episode 1 : Vikings"',
+            runningTime: "45m",
+            progress: "0%"
+        }
+    }, {
+        id: 1,
+        name: "Barbarians",
+        thumbnail: require("../assets/images/series/barbarians/barbarians_cover.jpg"),
+        stillWatching: [
+            {
+                id: 1,
+                profile: require("../assets/images/dummy_profile/1.jpg")
+            },
+            {
+                id: 2,
+                profile: require("../assets/images/dummy_profile/2.jpg")
+            },
+            {
+                id: 3,
+                profile: require("../assets/images/dummy_profile/3.jpg")
+            },
+            {
+                id: 4,
+                profile: require("../assets/images/dummy_profile/4.jpg")
+            },
+            {
+                id: 5,
+                profile: require("../assets/images/dummy_profile/5.jpg")
+            },
+            {
+                id: 6,
+                profile: require("../assets/images/dummy_profile/6.jpg")
+            },
+        ],
+        details: {
+            image: require("../assets/images/series/barbarians/barbarians.jpg"),
+            age: "16+",
+            genre: "Historical Drama",
+            ratings: 7.2,
+            season: "SEASON 1",
+            currentEpisode: 'S1 : E1 "Episode 1 : Vikings"',
+            runningTime: "45m",
+            progress: "0%"
+        }
+    }, {
+        id: 1,
+        name: "Barbarians",
+        thumbnail: require("../assets/images/series/barbarians/barbarians_cover.jpg"),
+        stillWatching: [
+            {
+                id: 1,
+                profile: require("../assets/images/dummy_profile/1.jpg")
+            },
+            {
+                id: 2,
+                profile: require("../assets/images/dummy_profile/2.jpg")
+            },
+            {
+                id: 3,
+                profile: require("../assets/images/dummy_profile/3.jpg")
+            },
+            {
+                id: 4,
+                profile: require("../assets/images/dummy_profile/4.jpg")
+            },
+            {
+                id: 5,
+                profile: require("../assets/images/dummy_profile/5.jpg")
+            },
+            {
+                id: 6,
+                profile: require("../assets/images/dummy_profile/6.jpg")
+            },
+        ],
+        details: {
+            image: require("../assets/images/series/barbarians/barbarians.jpg"),
+            age: "16+",
+            genre: "Historical Drama",
+            ratings: 7.2,
+            season: "SEASON 1",
+            currentEpisode: 'S1 : E1 "Episode 1 : Vikings"',
+            runningTime: "45m",
+            progress: "0%"
+        }
+    }, {
+        id: 1,
+        name: "Barbarians",
+        thumbnail: require("../assets/images/series/barbarians/barbarians_cover.jpg"),
+        stillWatching: [
+            {
+                id: 1,
+                profile: require("../assets/images/dummy_profile/1.jpg")
+            },
+            {
+                id: 2,
+                profile: require("../assets/images/dummy_profile/2.jpg")
+            },
+            {
+                id: 3,
+                profile: require("../assets/images/dummy_profile/3.jpg")
+            },
+            {
+                id: 4,
+                profile: require("../assets/images/dummy_profile/4.jpg")
+            },
+            {
+                id: 5,
+                profile: require("../assets/images/dummy_profile/5.jpg")
+            },
+            {
+                id: 6,
+                profile: require("../assets/images/dummy_profile/6.jpg")
+            },
+        ],
+        details: {
+            image: require("../assets/images/series/barbarians/barbarians.jpg"),
+            age: "16+",
+            genre: "Historical Drama",
+            ratings: 7.2,
+            season: "SEASON 1",
+            currentEpisode: 'S1 : E1 "Episode 1 : Vikings"',
+            runningTime: "45m",
+            progress: "0%"
+        }
+    }, {
+        id: 1,
+        name: "Barbarians",
+        thumbnail: require("../assets/images/series/barbarians/barbarians_cover.jpg"),
+        stillWatching: [
+            {
+                id: 1,
+                profile: require("../assets/images/dummy_profile/1.jpg")
+            },
+            {
+                id: 2,
+                profile: require("../assets/images/dummy_profile/2.jpg")
+            },
+            {
+                id: 3,
+                profile: require("../assets/images/dummy_profile/3.jpg")
+            },
+            {
+                id: 4,
+                profile: require("../assets/images/dummy_profile/4.jpg")
+            },
+            {
+                id: 5,
+                profile: require("../assets/images/dummy_profile/5.jpg")
+            },
+            {
+                id: 6,
+                profile: require("../assets/images/dummy_profile/6.jpg")
+            },
+        ],
+        details: {
+            image: require("../assets/images/series/barbarians/barbarians.jpg"),
+            age: "16+",
+            genre: "Historical Drama",
+            ratings: 7.2,
+            season: "SEASON 1",
+            currentEpisode: 'S1 : E1 "Episode 1 : Vikings"',
+            runningTime: "45m",
+            progress: "0%"
+        }
+    }, {
+        id: 1,
+        name: "Barbarians",
+        thumbnail: require("../assets/images/series/barbarians/barbarians_cover.jpg"),
+        stillWatching: [
+            {
+                id: 1,
+                profile: require("../assets/images/dummy_profile/1.jpg")
+            },
+            {
+                id: 2,
+                profile: require("../assets/images/dummy_profile/2.jpg")
+            },
+            {
+                id: 3,
+                profile: require("../assets/images/dummy_profile/3.jpg")
+            },
+            {
+                id: 4,
+                profile: require("../assets/images/dummy_profile/4.jpg")
+            },
+            {
+                id: 5,
+                profile: require("../assets/images/dummy_profile/5.jpg")
+            },
+            {
+                id: 6,
+                profile: require("../assets/images/dummy_profile/6.jpg")
+            },
+        ],
+        details: {
+            image: require("../assets/images/series/barbarians/barbarians.jpg"),
+            age: "16+",
+            genre: "Historical Drama",
+            ratings: 7.2,
+            season: "SEASON 1",
+            currentEpisode: 'S1 : E1 "Episode 1 : Vikings"',
+            runningTime: "45m",
+            progress: "0%"
+        }
+    }, {
+        id: 1,
+        name: "Barbarians",
+        thumbnail: require("../assets/images/series/barbarians/barbarians_cover.jpg"),
+        stillWatching: [
+            {
+                id: 1,
+                profile: require("../assets/images/dummy_profile/1.jpg")
+            },
+            {
+                id: 2,
+                profile: require("../assets/images/dummy_profile/2.jpg")
+            },
+            {
+                id: 3,
+                profile: require("../assets/images/dummy_profile/3.jpg")
+            },
+            {
+                id: 4,
+                profile: require("../assets/images/dummy_profile/4.jpg")
+            },
+            {
+                id: 5,
+                profile: require("../assets/images/dummy_profile/5.jpg")
+            },
+            {
+                id: 6,
+                profile: require("../assets/images/dummy_profile/6.jpg")
+            },
+        ],
+        details: {
+            image: require("../assets/images/series/barbarians/barbarians.jpg"),
+            age: "16+",
+            genre: "Historical Drama",
+            ratings: 7.2,
+            season: "SEASON 1",
+            currentEpisode: 'S1 : E1 "Episode 1 : Vikings"',
+            runningTime: "45m",
+            progress: "0%"
+        }
+    }, {
+        id: 1,
+        name: "Barbarians",
+        thumbnail: require("../assets/images/series/barbarians/barbarians_cover.jpg"),
+        stillWatching: [
+            {
+                id: 1,
+                profile: require("../assets/images/dummy_profile/1.jpg")
+            },
+            {
+                id: 2,
+                profile: require("../assets/images/dummy_profile/2.jpg")
+            },
+            {
+                id: 3,
+                profile: require("../assets/images/dummy_profile/3.jpg")
+            },
+            {
+                id: 4,
+                profile: require("../assets/images/dummy_profile/4.jpg")
+            },
+            {
+                id: 5,
+                profile: require("../assets/images/dummy_profile/5.jpg")
+            },
+            {
+                id: 6,
+                profile: require("../assets/images/dummy_profile/6.jpg")
+            },
+        ],
+        details: {
+            image: require("../assets/images/series/barbarians/barbarians.jpg"),
+            age: "16+",
+            genre: "Historical Drama",
+            ratings: 7.2,
+            season: "SEASON 1",
+            currentEpisode: 'S1 : E1 "Episode 1 : Vikings"',
+            runningTime: "45m",
+            progress: "0%"
+        }
+    },
+    {
+        id: 1,
+        name: "Barbarians",
+        thumbnail: require("../assets/images/series/barbarians/barbarians_cover.jpg"),
+        stillWatching: [
+            {
+                id: 1,
+                profile: require("../assets/images/dummy_profile/1.jpg")
+            },
+            {
+                id: 2,
+                profile: require("../assets/images/dummy_profile/2.jpg")
+            },
+            {
+                id: 3,
+                profile: require("../assets/images/dummy_profile/3.jpg")
+            },
+            {
+                id: 4,
+                profile: require("../assets/images/dummy_profile/4.jpg")
+            },
+            {
+                id: 5,
+                profile: require("../assets/images/dummy_profile/5.jpg")
+            },
+            {
+                id: 6,
+                profile: require("../assets/images/dummy_profile/6.jpg")
+            },
+        ],
+        details: {
+            image: require("../assets/images/series/barbarians/barbarians.jpg"),
+            age: "16+",
+            genre: "Historical Drama",
+            ratings: 7.2,
+            season: "SEASON 1",
+            currentEpisode: 'S1 : E1 "Episode 1 : Vikings"',
+            runningTime: "45m",
+            progress: "0%"
+        }
+    },
+    {
         id: 2,
         name: "Bridgerton",
         thumbnail: require("../assets/images/series/bridgerton/bridgerton_cover.jpg"),

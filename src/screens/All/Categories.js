@@ -6,9 +6,10 @@ import {
   FlatList,
   TouchableWithoutFeedback,
   Image,
+  SafeAreaView,
 } from 'react-native';
 
-import {COLORS, icons, SIZES} from '../../components/constants';
+import {COLORS, dummyData, FONTS, icons, SIZES} from '../../components/constants';
 import {
   CardContainer,
   CardHeader,
@@ -16,73 +17,68 @@ import {
   Card,
   ImageBox,
   SubHeading,
-} from './style/cardFlatlist.style';
+} from '../../components/home/style/cardFlatlist.style';
 
 import LinearGradient from 'react-native-linear-gradient';
 
 const Categories = ({navigation, photosData, mainTitle}) => {
-  if (photosData.length === 0) {
+  if (dummyData.newSeason.length === 0) {
     return <Text style={{color: 'red'}}>Loading...</Text>;
   }
   return (
-    <CardContainer>
-      {/* Header */}
-      <CardHeader>
-        <Heading>Categories</Heading>
-
-        <Image
-          source={icons.right_arrow}
-          style={{
-            width: 20,
-            height: 20,
-            tintColor: COLORS.primary,
-          }}
-        />
-      </CardHeader>
-
+      <SafeAreaView style={{flex:1,backgroundColor:"#000"}}>
+    <CardContainer style={{marginTop:-5,paddingTop:20}}>
       <FlatList
         horizontal={false}
         showsHorizontalScrollIndicator={false}
         contentContainerStyle={{
           marginTop: SIZES.radius,
         }}
-        numColumns={3}
-        data={photosData}
+        numColumns={2}
+        data={dummyData.newSeason}
         keyExtractor={item => `${item.id}`}
         renderItem={({item, index}) => {
           return (
             <TouchableWithoutFeedback
-              onPress={() =>
-                navigation.navigate('Categories', {selectedMovie: item})
-              }>
+              >
               <LinearGradient
                 start={{x: 0, y: 0}}
-                end={{x: 0, y: 1}}
-                colors={[COLORS.transparentWhite, COLORS.black]}
+                end={{x: 1, y: 1}}
+                colors={[COLORS.primary, COLORS.black]}
                 style={{
                   flex: 1,
                   alignItems: 'center',
                   justifyContent: 'center',
+                  borderRadius: 15,
                   marginBottom: 15,
-                  marginLeft: index % 3 == 0 ? 0 : 10,
+                  marginLeft: index % 2 == 0 ? 0 : 10,
                   borderColor:COLORS.transparentWhite,
-                  borderWidth:1,
-                  borderRadius:15,
-                  width:
-                  index === photosData.length - 1
-                    ? SIZES.width
-                    : SIZES.width / 3,
+                  marginBottom:index === dummyData.newSeason.length - 1
+                  ? 20
+                  : 10,
 
                 }}>
                 <Card
                   style={{
+                    width:
+                      index === dummyData.newSeason.length - 1
+                        ? SIZES.width
+                        : SIZES.width / 2,
+                        height: SIZES.width/3,
+
+                    backgroundColor: COLORS.transparentWhite,
                     alignItems: 'center',
                     justifyContent: 'center',
-                    height: 50,
                   }}>
-                     
+                         {/* thumbnail */}
+                         <Image
+                         style={{width:30,height:30,tintColor:COLORS.white}}
+                        source={icons.airplay}
+                        resizeMode="cover"
+                        
+                      />
                   {/* name */}
-                  <SubHeading>{item.id}</SubHeading>
+                  <SubHeading style={{fontSize:18}}>Category {Math.floor(Math.random() * 1000) + 1}</SubHeading>
                 </Card>
               </LinearGradient>
             </TouchableWithoutFeedback>
@@ -90,6 +86,8 @@ const Categories = ({navigation, photosData, mainTitle}) => {
         }}
       />
     </CardContainer>
+    </SafeAreaView>
+
   );
 };
 

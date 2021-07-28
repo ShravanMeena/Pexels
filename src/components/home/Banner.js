@@ -67,7 +67,7 @@ const Banner = ({navigation,photosData}) => {
           return (
             <TouchableWithoutFeedback
               onPress={() =>
-                navigation.navigate('MovieDetail', {
+                navigation.navigate('Collections', {
                   selectedMovie: item,
                 })
               }>

@@ -3,8 +3,9 @@ import {createStackNavigator} from '@react-navigation/stack';
 import {NavigationContainer} from '@react-navigation/native';
 
 import Tabs from './src/components/navigation/tabs';
-import All from './src/screens/All';
 import {MovieDetail} from './src/screens';
+import Categories from './src/screens/All/Categories';
+import Collections from './src/screens/All/Collections';
 
 
 const Stack = createStackNavigator();
@@ -23,8 +24,14 @@ const App = () => {
 
         <Stack.Screen
           options={{headerShown: true}}
-          name="All"
-          component={All}
+          name="Categories"
+          component={Categories}
+        />
+
+<Stack.Screen
+          options={{headerShown: true}}
+          name="Collections"
+          component={Collections}
         />
       </Stack.Navigator>
     </NavigationContainer>
